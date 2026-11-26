@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hamidullo Yaminov</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#e4f1ec;--ink:#0b3b32;--mute:#48675f;--line:#b6d2c8;--acc:#e8a200;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1f1b;--ink:#e3f3ee;--mute:#92b3a9;--line:#1f3d36;--acc:#f2b632;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1f1b;--ink:#e3f3ee;--mute:#92b3a9;--line:#1f3d36;--acc:#f2b632;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 19px/1.6 "Newsreader",Georgia,"Times New Roman",serif;display:grid;place-items:center;padding:24px}
+main{width:100%;max-width:520px}
+.bar{width:56px;height:6px;background:var(--acc);border-radius:3px;margin-bottom:28px}
+h1{font-size:clamp(40px,10vw,64px);line-height:1.02;letter-spacing:-.02em;margin:0 0 14px}
+.role{color:var(--mute);margin:0 0 32px;max-width:28em}
+ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+li span{color:var(--mute)}
+a{color:var(--ink);font-weight:600;text-decoration-color:var(--acc);text-decoration-thickness:2px;text-underline-offset:4px}
+a:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+<div class="bar"></div>
+<h1>Hamidullo Yaminov</h1>
+<p class="role">[Kasbingiz]. Bu yerga o‘zingiz haqingizda bir-ikki jumla yozing.</p>
+<ul>
+<li><span>Ish</span><a href="#">Loyiha havolasi</a></li>
+<li><span>Email</span><a href="mailto:siz@example.com">siz@example.com</a></li>
+<li><span>Telegram</span><a href="#">@sizning_nom</a></li>
+</ul>
+</main>
+</body>
+</html>
